@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Peta&display=swap');
+
+body{
+    background-image: url("../img/benevides.jpg");
+    background-position: top;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: navy;
+    padding: 10px 0;
+}
+
+header h1{
+    text-align: center;
+    color: orange;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+}
+
+p{
+    font-family: "Lexend Peta", sans-serif;
+    font-size: 18px;
+    backdrop-filter: blur(4px);
+    padding: 30px;
+}
+
+.video{
+    width: 1280px;
+    height: 720px;
+    padding: 30px;
+}
+
+#curiosidades{
+    font-family: "Lexend Peta", sans-serif;
+    backdrop-filter: blur(4px);
+    padding: 15px;
+}
+
+#curiosidades h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+#curiosidades ul{
+    font-size: 18px;
+}
+
+#redessociais a{
+    padding: 5px;
+    position: relative;
+    left: 15px;
+}
