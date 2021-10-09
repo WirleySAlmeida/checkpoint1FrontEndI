@@ -2,13 +2,18 @@
 
 body{
     background-image: url("../img/benevides.jpg");
-    background-position: top;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: 100%;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+
 }
 
 header{
+    background-position: top;
     background-color: navy;
     padding: 10px 0;
 }
@@ -48,8 +53,23 @@ p{
     font-size: 18px;
 }
 
-#redessociais a{
-    padding: 5px;
-    position: relative;
-    left: 15px;
+footer{
+    margin: 10px 0;
+}
+
+footer img{
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+#youtube{
+    position: absolute;
+    right: 5px;
+}
+
+#instagram{
+    position: absolute;
+    right: 65px;
 }
